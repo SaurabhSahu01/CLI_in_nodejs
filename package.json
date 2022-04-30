@@ -1,5 +1,5 @@
 {
-  "name": "language",
+  "name": "saurabhlang",
   "version": "1.0.0",
   "description": "cli tool to translate language",
   "main": "index.js",
