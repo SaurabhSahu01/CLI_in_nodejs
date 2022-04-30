@@ -3,6 +3,7 @@ const axios = require('axios');
 const json = require('../package.json');
 const program = require('commander');
 const mod = require('./languages');
+const mod2 = require('./secretKey');
 
 // command to translate the language 
 program.command('translate').description('translate into the given language').action(() => {
@@ -20,7 +21,7 @@ program.command('translate').description('translate into the given language').ac
       'content-type': 'application/x-www-form-urlencoded',
       'Accept-Encoding': 'application/gzip',
       'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com',
-      'X-RapidAPI-Key': '28d650c3f5mshbada86932d263d4p17604ajsncf6fc384286e'
+      'X-RapidAPI-Key': `${mod2.ki}`
     },
     data: encodedParams
   };
