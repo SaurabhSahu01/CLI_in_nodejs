@@ -1,0 +1,18 @@
+{
+  "name": "language",
+  "version": "1.0.0",
+  "description": "cli tool to translate language",
+  "main": "index.js",
+  "bin": {
+    "language": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saurabh sahu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "commander": "^9.2.0"
+  }
+}
